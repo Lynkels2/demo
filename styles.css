@@ -1,0 +1,121 @@
+.container1{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background-image: url(images/image.jpeg);
+}
+/*.logo{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  width: 100%;
+}*/
+body{
+  margin: 0;
+}
+.heading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+p{
+  font-family: 'PT Sans', sans-serif;s
+}
+.top-container{
+  background-color: #C40B13;
+  display: block ;
+  margin: 0px;
+  padding: 50px;
+}
+.header{
+  text-align: center;
+  font-style: italic;
+
+}
+hr{
+
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+
+}
+h1{
+  color: #f2f3f3;
+}
+h3{
+  font-family: 'Lobster', cursive;
+}
+.do{
+  text-decoration: underline;
+  font-family: 'PT Sans', sans-serif;
+}
+.middle-container{
+  background-color: #222831;
+  color: white;
+  margin: -25px 0 -15px;
+  text-align: center;
+}
+.usher{
+ float: left;
+ width: 50%;
+}
+.content{
+  font-style: italic;
+  font-size: 120%;
+  text-align: center;
+  word-break: break-all;
+}
+.usher1{
+width: 33.3%;
+float: left;
+}
+.usher2{
+  width: 33.3%;
+  height: auto;
+  float: left;
+}
+.usher3{
+  width: 33.3%;
+  height: auto;
+  float: left;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.bottom-container{
+  background-color: #dee1ec;
+  margin-top: -21px;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+.footer-link{
+  color: blue;
+  padding: 0px 0 0;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.contact{
+  color: blue;
+  text-decoration: underline;
+  font-family: 'Lobster', cursive;
+}
+.contact: :hover{
+  color: #EAF6F6;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.footer{
+  color: black;
+  font-size: 0.75rem;
+  padding: 70px 0 0;
+  text-align: center;
+}
+a:hover{
+  color: #10eaf0;
+}
+.love{
+color: #1e1548;
+font-family: 'PT Sans', sans-serif;
+}
